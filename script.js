@@ -1,12 +1,12 @@
 if (localStorage.getItem('username') !== null) {
-    const btn = document.createElement('button');
-    btn.innerText = 'Login as existing user';
-    btn.id = 'existing';
-    btn.addEventListener('click', () => {
+    // const btn = document.createElement('button');
+    // btn.innerText = 'Login as existing user';
+    // btn.id = 'existing';
+    existing.addEventListener('click', () => {
         alert(`Logged in as ${localStorage.getItem('username')}`);
     });
     // Append the button to the document or a specific element.
-    document.body.appendChild(btn); // You can change 'document.body' to your target container.
+    // document.body.appendChild(btn); // You can change 'document.body' to your target container.
 }
 
 // Assuming you have 'submit' and 'checkbox' elements defined.
